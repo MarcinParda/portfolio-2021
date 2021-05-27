@@ -10,8 +10,12 @@ const App = () => {
     <div className="page-wrapper">
       <NavBar />
       <WelcomeSection />
-      <RunningMan />
+      <RunningMan className="mt-6" />
       <AboutMeSection />
+      <RunningMan revert />
+      <div className="mt-6">
+        <WelcomeSection />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import runningMan from '../../../img/running-man-drawing-31.gif';
 
-const RunningMan = () => {
+const RunningMan = ({revert, className}) => {
     const [left, setLeft] = useState(0);
 
     useEffect(() => {
@@ -12,8 +12,8 @@ const RunningMan = () => {
     }, []);
 
     return (
-        <div className="mt-6">
-            <img className="img__small" style={{left: `${left}px`, position: 'absolute'}} alt="running man" src={runningMan} />
+        <div className={className}>
+            <img className="img__small" style={{left: `${left}px`, position: 'absolute', transform: `${revert ? "scaleY(-1)" : "scaleY(1)"}` }} alt="running man" src={runningMan} />
         </div>
     );
 }

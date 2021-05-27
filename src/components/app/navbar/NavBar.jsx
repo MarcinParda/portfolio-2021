@@ -7,7 +7,7 @@ const NavBar = () => {
                 <i className="fa fa-github" />
             </span>
             <button className="button button__small button--primary">
-                Projekty
+                Projects
             </button>
         </nav>
     );

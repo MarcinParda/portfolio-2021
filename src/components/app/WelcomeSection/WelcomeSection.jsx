@@ -1,16 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import face from '../../../img/face.png';
-import runningMan from '../../../img/running-man-drawing-31.gif';
 
 const WelcomeSection = () => {
-    const [left, setLeft] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setLeft(prev => prev > window.screen.availWidth ? -150 : prev + 1);
-        }, 7.5);
-        return () => clearInterval(interval);
-    }, []);
 
     return (
         <section className="section mt-5">

@@ -2,12 +2,12 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-        <nav className="nav ph-3 pv-1">
+        <nav className="nav">
             <span className="span__button">
                 <i className="fa fa-github" />
             </span>
             <button className="button button__small button--primary">
-                Kontakt
+                Projekty
             </button>
         </nav>
     );

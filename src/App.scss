@@ -3,6 +3,8 @@ $blue: #02527b;
 $white: #fff;
 $black: #000;
 
+// HTML tags
+
 * {
   padding: 0;
   margin: 0;
@@ -10,11 +12,24 @@ $black: #000;
   font-weight: 500;
   color: $blue;
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 html {
   font-size: 62.5%;
 }
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+// Blocks, divs
 
 .nav {
   display: flex;
@@ -22,11 +37,26 @@ html {
   padding: 3rem 2rem;
 }
 
+.section {
+  padding: 3rem 2rem;
+}
+
 .fa {
   font-size: 5rem;
 }
 
-.button{
+// elements
+
+.img {
+  &__face {
+    width: 20rem;
+  }
+  &__small {
+    width: 12.5rem;
+  }
+}
+
+.button {
   &__small {
     font-size: 1.6rem;
     padding: 1rem 2.5rem;
@@ -60,4 +90,30 @@ html {
       }
     }
   }
+}
+
+// general
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
 }

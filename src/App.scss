@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.nav {
+  background-color: #eee;
+  display: flex;
+  padding: 3rem 2rem;
+}
+
+.button{
+  &__small {
+
+  }
+  &--primary {
+
+  }
+}

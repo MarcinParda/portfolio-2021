@@ -139,6 +139,14 @@ h5 {
   }
 }
 
+.a {
+  color: $blue;
+  text-decoration: underline;
+  &:hover{
+    font-weight: 700;
+  }
+}
+
 // general
 
 .text-center {

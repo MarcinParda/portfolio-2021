@@ -11,7 +11,7 @@ const AboutMeSection = () => {
 
             <article>
                 <h3 className="mt-5">
-                    <div><h3 className="text-center text-white text-normal">Short story of my life</h3></div>
+                    <div><h3 className="text-center text-white text-normal">Short story of my IT life</h3></div>
                     <div><h3 className="text-center text-white mt-2">Hi. My name is Marcin Parda. I am 23 years old and a React developer with one year of commercial experience. From the teenage years I was interested in creating games.</h3></div>
                     <div className="mt-2"><h3 className="text-center text-white">At the beginning, they were board games, because my home did not have access to the Internet, and thus no programming materials. The municipal library also did not have any items on programming.</h3></div>
                     <div className="mt-2"><h3 className="text-center text-white">At the age of eleven, I started to play around changing graphics and sounds in games and see what happens. I liked it so much that it didn't take long until the first game development program appeared on my disk.</h3></div>

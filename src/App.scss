@@ -3,6 +3,10 @@ $blue: #02527b;
 $white: #fff;
 $black: #000;
 
+$tablet: 1024px;
+$small-screen: 1366px;
+$wide-screen: 1680px;
+
 // HTML tags
 
 * {
@@ -45,6 +49,15 @@ h5 {
   display: flex;
   justify-content: space-between;
   padding: 3rem 2rem;
+  @media (min-width: $tablet) {
+    padding: 3rem 6rem;
+  }
+  @media (min-width: $small-screen) {
+    padding: 3rem 10rem;
+  }
+  @media (min-width: $wide-screen) {
+    padding: 3rem 15rem;
+  }
 }
 
 .section {
@@ -125,6 +138,15 @@ h5 {
 
 .text-white {
   color: $white;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+
+.ml-2 {
+  margin-left: 2rem;
 }
 
 .mt-1 {

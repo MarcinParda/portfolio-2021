@@ -6,9 +6,14 @@ const NavBar = () => {
             <span className="span__button">
                 <i className="fa fa-github" />
             </span>
+            <div>
             <button className="button button__small button--primary">
                 Projects
             </button>
+             <button className="button button__small button--primary ml-1">
+                Contact
+            </button>
+            </div>
         </nav>
     );
 }

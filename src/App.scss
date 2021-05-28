@@ -69,10 +69,27 @@ h5 {
     background-color: $blue;
     color: $white;
   }
+  @media (min-width: $tablet) {
+    padding: 3rem 15rem;
+  }
+  @media (min-width: $small-screen) {
+    padding: 3rem 20rem;
+  }
+  @media (min-width: $wide-screen) {
+    padding: 3rem 35rem;
+  }
 }
 
 .fa {
-  font-size: 5rem;
+  &__big{
+    font-size: 5rem;
+  }
+  &--white-hover{
+    &:hover {
+      color: $white;
+    }
+  }
+  font-size: 1.6rem;
 }
 
 // elements

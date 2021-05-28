@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <nav className="nav">
             <span className="span__button">
-                <i className="fa fa-github" />
+                <i className="fa fa__big fa-github" />
             </span>
             <div>
             <button className="button button__small button--primary">

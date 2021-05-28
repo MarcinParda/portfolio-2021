@@ -101,6 +101,12 @@ h5 {
   &__small {
     width: 12.5rem;
   }
+  &__icon {
+    height: 2rem;
+    &:hover{
+      cursor: default;
+    }
+  }
 }
 
 .button {
@@ -126,6 +132,16 @@ h5 {
 
 .span {
   &__button{
+    &--selected {
+      font-weight: 700;
+      &:hover {
+        cursor: default;
+      }
+    }
+    &--icon-with-span {
+      display: flex;
+      align-items: center;
+    }
     i {
       transition: .3s;
       transform: scale(0.975);
@@ -147,6 +163,20 @@ h5 {
   }
 }
 
+// flex
+
+.flex {
+  display: flex;
+}
+
+.row-flex {
+  flex-direction: row;
+}
+
+.center-flex {
+  justify-content: center;
+}
+
 // general
 
 .text-center {
@@ -165,13 +195,24 @@ h5 {
   color: $white;
 }
 
+.pl-1 {
+  padding-left: .75rem;
+}
+
+.pr-1 {
+  padding-right: .75rem;
+}
+
 .ml-1 {
   margin-left: 1rem;
 }
 
-
 .ml-2 {
   margin-left: 2rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
 }
 
 .mt-1 {
@@ -184,6 +225,10 @@ h5 {
 
 .mt-3 {
   margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
 }
 
 .mt-5 {

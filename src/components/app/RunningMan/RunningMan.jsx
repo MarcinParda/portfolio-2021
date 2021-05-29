@@ -76,14 +76,14 @@ const RunningMan = ({revert, className}) => {
             }
             if (left > window.innerWidth - 125) {
                 setTop(prevTop => {
-                    if (prevTop < 95) {
-                        return prevTop + .25;
+                    if (prevTop < 80) {
+                        return prevTop + ((80 - prevTop) / (window.innerWidth - left));
                     }
                     return prevTop;
                 });
                 setRotate(prevRotate => {
                     if (prevRotate < 90) {
-                        return prevRotate + (90 / 425);
+                        return prevRotate + ((90 - prevRotate) / (window.innerWidth - left));
                     }
                     return prevRotate;
                 });

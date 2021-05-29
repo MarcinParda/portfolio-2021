@@ -21,7 +21,7 @@ const AboutMeSection = () => {
                 <div className="mt-2"><h4 className="text-center text-white">{t("I started IT studies")}</h4></div>
             </article>
             <article>
-                <div><h3 className="text-center text-white text-normal mt-5">{t("My stack")}</h3></div>
+                <div><h3 className="text-center text-white text-normal mt-5">{t("Technologies I enjoy to use")}:</h3></div>
                 <div className="technologies">
                     <Technology years={2} projects={10} technologyName={"React"} technologyImg={htmlStack} />
                     <Technology years={1.5} projects={5} technologyName={"Typescript"} technologyImg={htmlStack} />

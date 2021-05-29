@@ -36,7 +36,10 @@ i18n
                     "I started IT studies": "Od połowy 2020 roku zajmuję się programowaniem zawodowo. W swojej pracy tworzę aplikację internetowe łączące się z REST API. Potrafię programować obiektowo. Stosuję się do zasad SOLID i DRY. Regularnie sprawdzam nowinki w programistycznym świecie frontendu. Swobodnie posługuję się językiem angielskim na poziomie B2. Chętnie uczestniczę na targach IT i słucham kilku programistycznych podcastów.",
                     "Projects": "Projekty",
                     "Contact": "Kontakt",
-                    "Made with passion": "Stworzone z pasją"
+                    "Made with passion": "Stworzone z pasją",
+                    "Years of experience": "Lata doświadczenia",
+                    "Projects with this technology": "Ilość projektów w tej technologii",
+                    "Technologies I enjoy to use": "Technologie, w których lubię pracować"
                 },
             },
         },

@@ -34,27 +34,27 @@ const RunningMan = ({revert, className}) => {
             if (left < 0) {
                 setTop(prevTop => {
                     if (prevTop > -80) {
-                        return prevTop - (90 / 125);
+                        return prevTop - ((80 - prevTop) / (125 - left));
                     }
                     return prevTop;
                 });
-                setRotate(prev => {
-                    if (prev < 90) {
-                        return prev + (90 / 425);
+                setRotate(prevRotate => {
+                    if (prevRotate < 90) {
+                        return prevRotate + ((90 - prevRotate) / (125 - left));
                     }
-                    return prev;
+                    return prevRotate;
                 });
             }
             if (left > window.innerWidth - 125) {
                 setTop(prevTop => {
-                    if (prevTop < 0) {
-                        return prevTop + .25;
+                    if (prevTop < 80) {
+                        return prevTop + (-prevTop / (left - (window.innerWidth - 125)));
                     }
                     return prevTop;
                 });
                 setRotate(prevRotate => {
                     if (prevRotate < 0) {
-                        return prevRotate + (90 / 425);
+                        return prevRotate + ((-prevRotate) / (left - (window.innerWidth - 125)));
                     }
                     return prevRotate;
                 });

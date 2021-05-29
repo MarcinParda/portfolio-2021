@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import runningMan from '../../../img/running-man-drawing-31.gif';
 
 const RunningMan = ({revert, className}) => {
-    const [left, setLeft] = useState(revert ? window.innerWidth : -150);
+    const [left, setLeft] = useState(revert ? window.innerWidth : -125);
     const [top, setTop] = useState(revert ? -100 : 95);
     const [rotate, setRotate] = useState(revert ? -100 : -90);
 
@@ -78,7 +78,7 @@ const RunningMan = ({revert, className}) => {
                             return prevRotate;
                         });
                     }
-                    return prev > window.innerWidth ? -150 : prev + 1;
+                    return prev > window.innerWidth ? -125 : prev + 1;
                 });
             }
         }, 7.5);

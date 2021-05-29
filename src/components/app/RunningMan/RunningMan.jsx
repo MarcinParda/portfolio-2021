@@ -46,20 +46,20 @@ const RunningMan = ({revert, className}) => {
                 });
             } else {
                 setLeft(prev => {
-                    if (prev === -150) {
+                    if (prev === -125) {
                         setTop(95);
                         setRotate(-90);
                     }
                     if (prev < 0) {
                         setTop(prevTop => {
                             if (prevTop > 0) {
-                                return prevTop - .225;
+                                return prevTop - (112.5 / 125);
                             }
                             return prevTop;
                         });
                         setRotate(prev => {
                             if (prev < 0) {
-                                return prev + (90 / 425);
+                                return prev + (90 / 125);
                             }
                             return prev;
                         });

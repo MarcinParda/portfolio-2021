@@ -14,9 +14,6 @@ const App = () => {
       <RunningMan className="mt-6" />
       <AboutMeSection />
       <RunningMan revert />
-      <div className="mt-6">
-        <WelcomeSection />
-      </div>
         <Footer />
     </div>
   );

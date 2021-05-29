@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-2021/static/css/main.c5a86e45.chunk.css",
-    "main.js": "/portfolio-2021/static/js/main.62ea8121.chunk.js",
-    "main.js.map": "/portfolio-2021/static/js/main.62ea8121.chunk.js.map",
-    "runtime-main.js": "/portfolio-2021/static/js/runtime-main.82e784bc.js",
-    "runtime-main.js.map": "/portfolio-2021/static/js/runtime-main.82e784bc.js.map",
-    "static/js/2.ce77c8b4.chunk.js": "/portfolio-2021/static/js/2.ce77c8b4.chunk.js",
-    "static/js/2.ce77c8b4.chunk.js.map": "/portfolio-2021/static/js/2.ce77c8b4.chunk.js.map",
-    "static/js/3.d43c1d8b.chunk.js": "/portfolio-2021/static/js/3.d43c1d8b.chunk.js",
-    "static/js/3.d43c1d8b.chunk.js.map": "/portfolio-2021/static/js/3.d43c1d8b.chunk.js.map",
+    "main.css": "/portfolio-2021/static/css/main.e2246fc4.chunk.css",
+    "main.js": "/portfolio-2021/static/js/main.e07877f3.chunk.js",
+    "main.js.map": "/portfolio-2021/static/js/main.e07877f3.chunk.js.map",
+    "runtime-main.js": "/portfolio-2021/static/js/runtime-main.b566e35c.js",
+    "runtime-main.js.map": "/portfolio-2021/static/js/runtime-main.b566e35c.js.map",
+    "static/js/2.ee1bd745.chunk.js": "/portfolio-2021/static/js/2.ee1bd745.chunk.js",
+    "static/js/2.ee1bd745.chunk.js.map": "/portfolio-2021/static/js/2.ee1bd745.chunk.js.map",
+    "static/js/3.4fd043f8.chunk.js": "/portfolio-2021/static/js/3.4fd043f8.chunk.js",
+    "static/js/3.4fd043f8.chunk.js.map": "/portfolio-2021/static/js/3.4fd043f8.chunk.js.map",
     "index.html": "/portfolio-2021/index.html",
-    "static/css/main.c5a86e45.chunk.css.map": "/portfolio-2021/static/css/main.c5a86e45.chunk.css.map",
-    "static/js/2.ce77c8b4.chunk.js.LICENSE.txt": "/portfolio-2021/static/js/2.ce77c8b4.chunk.js.LICENSE.txt",
+    "static/css/main.e2246fc4.chunk.css.map": "/portfolio-2021/static/css/main.e2246fc4.chunk.css.map",
+    "static/js/2.ee1bd745.chunk.js.LICENSE.txt": "/portfolio-2021/static/js/2.ee1bd745.chunk.js.LICENSE.txt",
+    "static/media/enFlag.59f0a935.png": "/portfolio-2021/static/media/enFlag.59f0a935.png",
     "static/media/face.b0b3d7c2.png": "/portfolio-2021/static/media/face.b0b3d7c2.png",
+    "static/media/htmlStack.fee51a0a.png": "/portfolio-2021/static/media/htmlStack.fee51a0a.png",
+    "static/media/plFlag.d5122dd3.png": "/portfolio-2021/static/media/plFlag.d5122dd3.png",
     "static/media/running-man-drawing-31.842c074c.gif": "/portfolio-2021/static/media/running-man-drawing-31.842c074c.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.82e784bc.js",
-    "static/js/2.ce77c8b4.chunk.js",
-    "static/css/main.c5a86e45.chunk.css",
-    "static/js/main.62ea8121.chunk.js"
+    "static/js/runtime-main.b566e35c.js",
+    "static/js/2.ee1bd745.chunk.js",
+    "static/css/main.e2246fc4.chunk.css",
+    "static/js/main.e07877f3.chunk.js"
   ]
 }

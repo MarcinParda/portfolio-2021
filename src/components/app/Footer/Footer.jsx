@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer className="footer mt-5">
             <div className="mt-6">
-                <span className="text-white">Made with passion</span>
+                <span className="text-white">{t("Made with passion")}</span>
                 <div>
                     <span className="text-white">© 2021, Marcin Parda</span>
                 </div>

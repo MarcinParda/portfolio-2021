@@ -36,7 +36,7 @@ const RunningMan = ({revert, className}) => {
                             return prevTop;
                         });
                         setRotate(prevRotate => {
-                            if (prevRotate < 90) {
+                            if (prevRotate < 0) {
                                 return prevRotate + (90 / 425);
                             }
                             return prevRotate;

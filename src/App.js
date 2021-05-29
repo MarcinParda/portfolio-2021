@@ -4,6 +4,7 @@ import NavBar from "./components/app/navbar/NavBar";
 import WelcomeSection from "./components/app/WelcomeSection/WelcomeSection";
 import RunningMan from "./components/app/RunningMan/RunningMan";
 import AboutMeSection from "./components/app/AboutMeSection/AboutMeSection";
+import Footer from "./components/app/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <div className="mt-6">
         <WelcomeSection />
       </div>
+        <Footer />
     </div>
   );
 }

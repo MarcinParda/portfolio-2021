@@ -3,13 +3,83 @@ import runningMan from '../../../img/running-man-drawing-31.gif';
 
 const RunningMan = ({revert, className}) => {
     const [left, setLeft] = useState(revert ? window.innerWidth : -150);
+    const [top, setTop] = useState(revert ? -100 : 95);
+    const [rotate, setRotate] = useState(revert ? -100 : -90);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            if(revert){
-                setLeft(prev => prev < -150 ? window.innerWidth : prev - 1);
+            if (revert) {
+                setLeft(prev => {
+                    if (prev === -150) {
+                        setTop(-95);
+                        setRotate(-90);
+                    }
+                    if (prev < 0) {
+                        setTop(prevTop => {
+                            if (prevTop > -90) {
+                                return prevTop - .225;
+                            }
+                            return prevTop;
+                        });
+                        setRotate(prev => {
+                            if (prev < 90) {
+                                return prev + (90 / 425);
+                            }
+                            return prev;
+                        });
+                    }
+                    if (prev > window.innerWidth - 150) {
+                        setTop(prevTop => {
+                            if (prevTop < 0) {
+                                return prevTop + .25;
+                            }
+                            return prevTop;
+                        });
+                        setRotate(prevRotate => {
+                            if (prevRotate < 90) {
+                                return prevRotate + (90 / 425);
+                            }
+                            return prevRotate;
+                        });
+                    }
+                    return prev < -150 ? window.innerWidth : prev - 1;
+                });
             } else {
-                setLeft(prev => prev > window.innerWidth ? -150 : prev + 1);
+                setLeft(prev => {
+                    if (prev === -150) {
+                        setTop(95);
+                        setRotate(-90);
+                    }
+                    if (prev < 0) {
+                        setTop(prevTop => {
+                            if (prevTop > 0) {
+                                return prevTop - .225;
+                            }
+                            return prevTop;
+                        });
+                        setRotate(prev => {
+                            if (prev < 0) {
+                                return prev + (90 / 425);
+                            }
+                            return prev;
+                        });
+                    }
+                    if (prev > window.innerWidth - 125) {
+                        setTop(prevTop => {
+                            if (prevTop < 95) {
+                                return prevTop + .25;
+                            }
+                            return prevTop;
+                        });
+                        setRotate(prevRotate => {
+                            if (prevRotate < 90) {
+                                return prevRotate + (90 / 425);
+                            }
+                            return prevRotate;
+                        });
+                    }
+                    return prev > window.innerWidth ? -150 : prev + 1;
+                });
             }
         }, 7.5);
         return () => clearInterval(interval);
@@ -17,7 +87,7 @@ const RunningMan = ({revert, className}) => {
 
     return (
         <div className={className}>
-            <img className="img__small" style={{left: `${left}px`, position: 'absolute', transform: `${revert ? "scale(-1)" : "scaleY(1)"}` }} alt="running man" src={runningMan} />
+            <img className="img__small" style={{left: `${left}px`, marginTop: `${top}px`, position: 'absolute', transform: `${revert ? `scale(-1) rotate(${rotate}deg)` : `scaleY(1) rotate(${rotate}deg)`}` }} alt="running man" src={runningMan} />
         </div>
     );
 }

@@ -48,6 +48,7 @@ h5 {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 3rem 2rem;
   @media (min-width: $tablet) {
     padding: 3rem 6rem;
@@ -60,10 +61,20 @@ h5 {
   }
 }
 
+.footer {
+  background-color: $blue;
+  height: 15rem;
+  text-align: center;
+  border-radius: 100% 100% 0 0;
+}
+
 .section {
   padding: 3rem;
   &--under-running-man {
     margin-top: 11.1rem;
+  }
+  &__about-me {
+    border-radius: 10rem;
   }
   &--primary {
     background-color: $blue;

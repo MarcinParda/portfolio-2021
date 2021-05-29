@@ -2,6 +2,12 @@ import React from 'react'
 import { useTranslation } from "react-i18next";
 import Technology from "./Technology/Technology";
 import htmlStack from "../../../img/htmlStack.png";
+import reactStack from "../../../img/reactStack.png";
+import typescriptStack from "../../../img/typescriptStack.png";
+import javascriptStack from "../../../img/javascriptStack.png";
+import gitStack from "../../../img/gitStack.png";
+import sassStack from "../../../img/sassStack.png";
+import cssStack from "../../../img/cssStack.png";
 
 const AboutMeSection = () => {
 
@@ -23,13 +29,13 @@ const AboutMeSection = () => {
             <article>
                 <div><h3 className="text-center text-white text-normal mt-5">{t("Technologies I enjoy to use")}:</h3></div>
                 <div className="technologies">
-                    <Technology years={2} projects={10} technologyName={"React"} technologyImg={htmlStack} />
-                    <Technology years={1.5} projects={5} technologyName={"Typescript"} technologyImg={htmlStack} />
-                    <Technology years={4} projects={10} technologyName={"Javascript"} technologyImg={htmlStack} />
-                    <Technology years={3} projects={10} technologyName={"Sass"} technologyImg={htmlStack} />
-                    <Technology years={5} projects={10} technologyName={"CSS"} technologyImg={htmlStack} />
+                    <Technology years={2} projects={10} technologyName={"React"} technologyImg={reactStack} />
+                    <Technology years={1.5} projects={5} technologyName={"Typescript"} technologyImg={typescriptStack} />
+                    <Technology years={4} projects={10} technologyName={"Javascript"} technologyImg={javascriptStack} />
+                    <Technology years={3} projects={10} technologyName={"Sass"} technologyImg={sassStack} />
+                    <Technology years={5} projects={10} technologyName={"CSS"} technologyImg={cssStack} />
                     <Technology years={5} projects={10} technologyName={"HTML"} technologyImg={htmlStack} />
-                    <Technology years={4} projects={10} technologyName={"Git"} technologyImg={htmlStack} />
+                    <Technology years={4} projects={10} technologyName={"Git"} technologyImg={gitStack} />
                 </div>
 
             </article>

@@ -27,7 +27,7 @@ const RunningMan = ({revert, className}) => {
             }
         }, 7.5);
         return () => clearInterval(interval);
-    }, []);
+    }, [revert]);
 
     useEffect(() => {
         if (revert) {
@@ -89,7 +89,7 @@ const RunningMan = ({revert, className}) => {
                 });
             }
         }
-    }, [left]);
+    }, [left, revert]);
 
     return (
         <div className={className}>

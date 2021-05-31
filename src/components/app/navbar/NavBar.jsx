@@ -6,7 +6,13 @@ const NavBar = () => {
     return (
         <nav className="nav">
             <span className="span__button">
-                <i className="fa fa__big fa-github" />
+                <a
+                    href={"https://github.com/MarcinParda"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className="fa fa__big fa-github" />
+                </a>
             </span>
             <div>
             <button className="button button__small button--primary">

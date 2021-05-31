@@ -20,7 +20,10 @@ i18n
                     "I started IT studies": "I have been dealing with programming professionally since 2020. In my work, I create a web application that connects to REST API. I can program object-oriented. I adhere to the SOLID and DRY rules. I regularly check news in the programming world of the frontend. I am fluent in English at B2 level. I am happy to attend IT fairs and listen to a few programming podcasts.",
                     "Projects": "Projects",
                     "Contact": "Contact",
-                    "Made with passion": "Made with passion"
+                    "Made with passion": "Made with passion",
+                    "Amarok page": "Amarok page",
+                    "My projects": "Selected projects",
+                    "Amarok description": "Home page for game Amarok: Blood of the north"
                 },
             },
             pl: {
@@ -39,7 +42,12 @@ i18n
                     "Made with passion": "Stworzone z pasją",
                     "Years of experience": "Lata doświadczenia",
                     "Projects with this technology": "Ilość projektów w tej technologii",
-                    "Technologies I enjoy to use": "Technologie, w których lubię pracować"
+                    "Technologies I enjoy to use": "Technologie, w których lubię pracować",
+                    "Amarok page": "Strona Amarok",
+                    "My projects": "Wybrane projekty",
+                    "Amarok description": "Strona domowa gry Amarok: Krew północy",
+                    "View site": "Strona",
+                    "View code": "Kod"
                 },
             },
         },

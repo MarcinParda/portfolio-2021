@@ -80,6 +80,16 @@ h5 {
 }
 
 .fa {
+  margin-left: .5rem;
+  &__normal{
+    font-size: 2rem;
+    &__external{
+      font-size: 1.9rem;
+    }
+    &:hover {
+      color: $white;
+    }
+  }
   &__big{
     font-size: 5rem;
   }
@@ -122,6 +132,15 @@ h5 {
 
 .section {
   padding: 3rem;
+  @media (min-width: $tablet) {
+    padding: 3rem 15rem;
+  }
+  @media (min-width: $small-screen) {
+    padding: 3rem 20rem;
+  }
+  @media (min-width: $wide-screen) {
+    padding: 3rem 35rem;
+  }
   &--under-running-man {
     margin-top: 11.1rem;
   }
@@ -132,14 +151,14 @@ h5 {
     background-color: $blue;
     color: $white;
   }
-  @media (min-width: $tablet) {
-    padding: 3rem 15rem;
-  }
-  @media (min-width: $small-screen) {
-    padding: 3rem 20rem;
-  }
-  @media (min-width: $wide-screen) {
-    padding: 3rem 35rem;
+  &__projects {
+    padding: 0;
+    @media (min-width: $tablet) {
+      padding: 3rem 10rem;
+    }
+    @media (min-width: $wide-screen) {
+      padding: 3rem 15rem;
+    }
   }
 }
 
@@ -156,6 +175,78 @@ h5 {
   }
   @media (min-width: $tablet) {
     width: 33%;
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 100%;
+  padding-top: 56%;
+  position: relative;
+  &__div {
+    z-index: 2;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  @media (min-width: $phone-horizontal) {
+    width: 70%;
+    padding-top: 39%;
+  }
+  @media (min-width: $tablet) {
+    width: 50%;
+    padding-top: 28%;
+  }
+  @media (min-width: $small-screen) {
+    width: 33%;
+    padding-top: 18%;
+  }
+}
+
+.project-info {
+  z-index: 2;
+  background-color: transparent;
+  transition: .3s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__text {
+    margin-bottom: 2rem;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2rem;
+    @media (min-width: $phone-horizontal) {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    @media (min-width: $tablet) {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    @media (min-width: $small-screen) {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+  &:hover {
+    opacity: 100;
+    color: $white;
+    background-color: $white;
   }
 }
 
@@ -183,6 +274,9 @@ h5 {
       width: 15rem;
     }
   }
+  &__project {
+    width: 100%;
+  }
 }
 
 .button {
@@ -192,6 +286,7 @@ h5 {
     border: solid 2px $blue;
     border-radius: 50px;
     background-color: transparent;
+    align-items: center;
   }
   &--primary {
     border-color: $blue;
@@ -236,6 +331,35 @@ h5 {
   text-decoration: underline;
   &:hover{
     font-weight: 700;
+  }
+  &__button{
+    text-decoration: none;
+    &__small {
+      font-size: 1.6rem;
+      padding: 1rem 2.5rem;
+      border: solid 2px $blue;
+      border-radius: 50px;
+      background-color: transparent;
+      align-items: center;
+    }
+    &--primary {
+      border-color: $blue;
+      &:hover {
+        background-color: $blue;
+        color: $white;
+      }
+    }
+    &__with-icon {
+      display: flex;
+      align-items: center;
+    }
+    &:hover{
+      cursor: pointer;
+      i {
+        color: $white;
+      }
+    }
+    transition: .3s;
   }
 }
 
@@ -309,6 +433,10 @@ h5 {
 
 .mt-6 {
   margin-top: 6rem;
+}
+
+.mt-20 {
+  margin-top: 20rem;
 }
 
 .pt-2 {

@@ -21,7 +21,7 @@ const AboutMeSection = () => {
             </header>
 
             <article>
-                <div><h3 className="text-center text-white text-normal mt-4">{t("Short story of my life")}</h3></div>
+                <div><h3 className="text-center text-white text-normal mt-4">{t("Short story of my life")}.</h3></div>
                 <div><h4 className="text-center text-white mt-2">{t("Hi. My name is Marcin Parda.")}</h4></div>
                 <div className="mt-2"><h4 className="text-center text-white">{t("When I realized that running")}</h4></div>
                 <div className="mt-2"><h4 className="text-center text-white">{t("I started IT studies")}</h4></div>

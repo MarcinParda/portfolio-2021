@@ -13,16 +13,15 @@ const WelcomeSection = () => {
 
     return (
         <section className="section mt-5">
-            <header className="text-center"><h2>{t("hi")}</h2></header>
+            <header className="text-center"><h2>{t("hi")}.</h2></header>
             <div className="text-center mt-2">
                 <img className="img__face" alt="my face :D" src={face} />
             </div>
             <article className="text-center">
                 <h1 className="mt-2">Junior React Developer</h1>
                 <div className="mt-2">{t("I program")}.</div>
-                <div className="mt-1 text-bold">{t("And this is my portfolio")}. (WIP)</div>
-                <div className="mt-1 text-bold">My portfolio from 2020 is <a className="a" target="_blank" rel="noopener noreferrer" href={"https://marcinparda.github.io/portfolio-2020/"} >here</a>.</div>
-                <div className="mt-1 flex row-flex center-flex">
+                <div className="mt-1 text-bold">{t("And this is my portfolio")}.</div>
+                <div className="mt-3 flex row-flex center-flex">
                     <span
                         className={`span__button span__button--icon-with-span ml-1`}
                         onClick={() => changeLanguage('en')}

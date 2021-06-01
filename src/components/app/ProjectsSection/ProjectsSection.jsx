@@ -40,6 +40,14 @@ const ProjectsSection = () => {
                   codeLink={"https://github.com/MarcinParda/AmarokPage"}
               />
               <Project
+                  image={tweenmaxProject}
+                  name="Tweenmax page"
+                  description="Tweenmax description"
+                  stack="Tweenmax/CSS"
+                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/photo-album-landing-page/index.html"}
+                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/photo-album-landing-page"}
+              />
+              <Project
                   image={asteroidsProject}
                   name="Asteroid game"
                   description="Asteroid description"
@@ -48,28 +56,20 @@ const ProjectsSection = () => {
                   codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/asteroids-game"}
               />
               <Project
-                  image={hangingProject}
-                  name="Hangman game"
-                  description="Hangman game description"
-                  stack="Javascript"
-                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/hangman/index.html"}
-                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/hangman"}
-              />
-              <Project
-                  image={tweenmaxProject}
-                  name="Tweenmax page"
-                  description="Tweenmax description"
-                  stack="Tweenmax/css"
-                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/photo-album-landing-page/index.html"}
-                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/photo-album-landing-page"}
-              />
-              <Project
                   image={portfolioProject}
                   name="Old portfolio"
                   description="Old portfolio description"
                   stack="React/Sass/BEM"
                   siteLink={"https://marcinparda.github.io/portfolio-2020/"}
                   codeLink={"https://github.com/MarcinParda/portfolio-2020"}
+              />
+              <Project
+                  image={hangingProject}
+                  name="Hangman game"
+                  description="Hangman game description"
+                  stack="Javascript"
+                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/hangman/index.html"}
+                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/hangman"}
               />
               <Project
                   image={memoProject}

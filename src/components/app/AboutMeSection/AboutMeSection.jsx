@@ -1,6 +1,8 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
 import Technology from "./Technology/Technology";
+import i18n from "i18next";
+
 import htmlStack from "../../../img/htmlStack.png";
 import reactStack from "../../../img/reactStack.png";
 import typescriptStack from "../../../img/typescriptStack.png";
@@ -21,10 +23,41 @@ const AboutMeSection = () => {
             </header>
 
             <article>
-                <div><h3 className="text-center text-white text-normal mt-4">{t("Short story of my life")}.</h3></div>
-                <div><h4 className="text-center text-white mt-2">{t("Hi. My name is Marcin Parda.")}</h4></div>
-                <div className="mt-2"><h4 className="text-center text-white">{t("When I realized that running")}</h4></div>
-                <div className="mt-2"><h4 className="text-center text-white">{t("I started IT studies")}</h4></div>
+                <div>
+                    <h3 className="text-center text-white text-normal mt-4">
+                        {t("Short story of my life")}.
+                    </h3>
+                </div>
+                <div>
+                    <h4 className="text-center text-white mt-2">
+                        {t("Hi. My name is Marcin Parda.")}
+                    </h4>
+                </div>
+                <div className="mt-2">
+                    <h4 className="text-center text-white">
+                        {t("When I realized that running")}
+                    </h4>
+                </div>
+                <div className="mt-2">
+                    <h4 className="text-center text-white">
+                        {t("I started IT studies")}
+                    </h4>
+                </div>
+                <div className="mt-2 text-center">
+                    <a
+                        className="text-center"
+                        href={i18n.language === "pl" ?
+                            "https://www.canva.com/design/DAEfTVTcS3k/cFDS3vBGwhxY8noAcks25w/edit" :
+                            "https://www.canva.com/design/DAEfgqlZ8Ls/5XoTXKw_IQ1iWfpJpi6jlQ/edit"
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <h4 className="text-yellow text-underline">
+                            {t("My CV")}
+                        </h4>
+                    </a>
+                </div>
             </article>
             <article>
                 <div><h3 className="text-center text-white text-normal mt-5">{t("Technologies I enjoy to use")}:</h3></div>

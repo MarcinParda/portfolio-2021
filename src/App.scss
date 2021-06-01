@@ -222,6 +222,8 @@ h5 {
   flex-direction: column;
   justify-content: center;
   &__text {
+    margin-right: 1rem;
+    margin-left: 1rem;
     margin-bottom: 2rem;
   }
   &__buttons {
@@ -241,6 +243,9 @@ h5 {
     @media (min-width: $small-screen) {
       padding-left: 10%;
       padding-right: 10%;
+    }
+    &--only-page {
+      justify-content: center;
     }
   }
   &:hover {

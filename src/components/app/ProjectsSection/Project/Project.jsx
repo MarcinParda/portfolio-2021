@@ -15,7 +15,7 @@ const Project = ({image, name, description, stack, siteLink, codeLink}) => {
                     <h5 className="project-info__stack">{stack}</h5>
                     <h4 className="mt-2">{t(description)}.</h4>
                 </div>
-                <div className="project-info__buttons">
+                <div className={`project-info__buttons ${codeLink ? "" : "project-info__buttons--only-page"}`}>
                     <a
                         className="a__button a__button__with-icon a__button--primary a__button__small"
                         href={siteLink}
@@ -24,14 +24,14 @@ const Project = ({image, name, description, stack, siteLink, codeLink}) => {
                     >
                         {t("View site")}<i className="fa fa__normal--external fa-external-link" />
                     </a>
-                    <a
+                    {codeLink && <a
                         className="a__button a__button__with-icon a__button--primary a__button__small"
                         href={codeLink}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         {t("View code")}<i className="fa fa__normal fa-github" />
-                    </a>
+                    </a>}
                 </div>
             </div>
         </div>

@@ -8,6 +8,9 @@ import billingProject from "../../../img/billingProject.png";
 import portfolioProject from "../../../img/oldPortfolio.png";
 import tweenmaxProject from "../../../img/tweenmaxProject.png";
 import mockupProject from "../../../img/mocupsProject.png";
+import todoProject from "../../../img/todoProject.png";
+import memoProject from "../../../img/memoProject.png";
+import hangingProject from "../../../img/hangingProject.png";
 
 const ProjectsSection = () => {
 
@@ -25,8 +28,8 @@ const ProjectsSection = () => {
                   name="Billing app"
                   description="Billing description"
                   stack="React/Bootstrap/Redux"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
+                  siteLink={"https://floating-atoll-06778.herokuapp.com/"}
+                  codeLink={"https://github.com/Billeniarsi/rejestracja-czasu-pracy"}
               />
               <Project
                   image={amarokProject}
@@ -40,57 +43,56 @@ const ProjectsSection = () => {
                   image={asteroidsProject}
                   name="Asteroid game"
                   description="Asteroid description"
-                  stack="Javasript/canvas"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
+                  stack="Javascript/canvas"
+                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/asteroids-game/index.html"}
+                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/asteroids-game"}
               />
               <Project
-                  image={asteroidsProject}
-                  name="Asteroid game"
-                  description="Asteroid description"
-                  stack="Javasript/canvas"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
+                  image={hangingProject}
+                  name="Hangman game"
+                  description="Hangman game description"
+                  stack="Javascript"
+                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/hangman/index.html"}
+                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/hangman"}
               />
               <Project
                   image={tweenmaxProject}
-                  name="Asteroid game"
-                  description="Asteroid description"
-                  stack="Javasript/canvas"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
+                  name="Tweenmax page"
+                  description="Tweenmax description"
+                  stack="Tweenmax/css"
+                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/photo-album-landing-page/index.html"}
+                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/photo-album-landing-page"}
               />
               <Project
                   image={portfolioProject}
-                  name="Asteroid game"
-                  description="Asteroid description"
-                  stack="Javasript/canvas"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
+                  name="Old portfolio"
+                  description="Old portfolio description"
+                  stack="React/Sass/BEM"
+                  siteLink={"https://marcinparda.github.io/portfolio-2020/"}
+                  codeLink={"https://github.com/MarcinParda/portfolio-2020"}
               />
               <Project
-                  image={asteroidsProject}
-                  name="Asteroid game"
-                  description="Asteroid description"
-                  stack="Javasript/canvas"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
+                  image={memoProject}
+                  name="Memo gwent game"
+                  description="Memo gwent description"
+                  stack="Javascript"
+                  siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/gwent-memory/index.html"}
+                  codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/gwent-memory"}
+              />
+              <Project
+                  image={todoProject}
+                  name="Todo app"
+                  description="Todo description"
+                  stack="Javascript"
+                  siteLink={"https://marcinparda.github.io/to-do-list/"}
+                  codeLink={"https://github.com/MarcinParda/to-do-list"}
               />
               <Project
                   image={mockupProject}
-                  name="Asteroid game"
-                  description="Asteroid description"
-                  stack="Javasript/canvas"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
-              />
-              <Project
-                  image={asteroidsProject}
-                  name="Asteroid game"
-                  description="Asteroid description"
-                  stack="Javasript/canvas"
-                  siteLink={"https://marcinparda.github.io/AmarokPage/"}
-                  codeLink={"https://github.com/MarcinParda/AmarokPage"}
+                  name="Project mockups"
+                  description="Mockups description"
+                  stack="Miro"
+                  siteLink={"https://miro.com/app/board/o9J_kuO7wMY=/?moveToWidget=3074457347509396995&cot=5"}
               />
           </div>
         </article>

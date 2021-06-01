@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useTranslation } from "react-i18next";
 import Technology from "./Technology/Technology";
 import i18n from "i18next";

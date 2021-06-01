@@ -12,12 +12,12 @@ import todoProject from "../../../img/todoProject.png";
 import memoProject from "../../../img/memoProject.png";
 import hangingProject from "../../../img/hangingProject.png";
 
-const ProjectsSection = () => {
+const ProjectsSection = ({projectRef}) => {
 
   const { t } = useTranslation();
 
   return (
-      <section className="section section__projects section--under-running-man mt-20">
+      <section ref={projectRef} className="section section__projects section--under-running-man mt-20">
         <header className="text-center">
           <h1>{t("My projects")}</h1>
         </header>

@@ -71,7 +71,8 @@ i18n
                     "Todo description": "Must-have każdego portfolio",
                     "Project mockups": "Mockupy do projektu",
                     "Mockups description": "Mockupy, które tworzyłem do projektu na przedmiocie uczelnianym",
-                    "My CV": "Moje CV"
+                    "My CV": "Moje CV",
+                    "Number": "Numer"
                 },
             },
         },

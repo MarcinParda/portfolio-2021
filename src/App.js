@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.scss';
 import NavBar from "./components/app/navbar/NavBar";
 import WelcomeSection from "./components/app/WelcomeSection/WelcomeSection";
@@ -8,17 +8,20 @@ import Footer from "./components/app/Footer/Footer";
 import ProjectsSection from "./components/app/ProjectsSection/ProjectsSection";
 
 const App = () => {
-  return (
-    <div className="page-wrapper">
-        <NavBar />
-        <WelcomeSection />
-        <RunningMan className="mt-6" />
-        <AboutMeSection />
-        <RunningMan revert />
-        <ProjectsSection />
-        <Footer />
-    </div>
-  );
+    const projectRef = useRef(null);
+    const executeScroll = () => projectRef.current.scrollIntoView();
+
+    return (
+        <div className="page-wrapper">
+            <NavBar executeScroll={executeScroll} />
+            <WelcomeSection />
+            <RunningMan className="mt-6" />
+            <AboutMeSection />
+            <RunningMan revert />
+            <ProjectsSection projectRef={projectRef} />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

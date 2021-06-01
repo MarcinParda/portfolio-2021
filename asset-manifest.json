@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-2021/static/css/main.e8d6dc64.chunk.css",
-    "main.js": "/portfolio-2021/static/js/main.e4c1a847.chunk.js",
-    "main.js.map": "/portfolio-2021/static/js/main.e4c1a847.chunk.js.map",
+    "main.css": "/portfolio-2021/static/css/main.49fb14bb.chunk.css",
+    "main.js": "/portfolio-2021/static/js/main.c69c908b.chunk.js",
+    "main.js.map": "/portfolio-2021/static/js/main.c69c908b.chunk.js.map",
     "runtime-main.js": "/portfolio-2021/static/js/runtime-main.b566e35c.js",
     "runtime-main.js.map": "/portfolio-2021/static/js/runtime-main.b566e35c.js.map",
     "static/js/2.23432d23.chunk.js": "/portfolio-2021/static/js/2.23432d23.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.4fd043f8.chunk.js": "/portfolio-2021/static/js/3.4fd043f8.chunk.js",
     "static/js/3.4fd043f8.chunk.js.map": "/portfolio-2021/static/js/3.4fd043f8.chunk.js.map",
     "index.html": "/portfolio-2021/index.html",
-    "static/css/main.e8d6dc64.chunk.css.map": "/portfolio-2021/static/css/main.e8d6dc64.chunk.css.map",
+    "static/css/main.49fb14bb.chunk.css.map": "/portfolio-2021/static/css/main.49fb14bb.chunk.css.map",
     "static/js/2.23432d23.chunk.js.LICENSE.txt": "/portfolio-2021/static/js/2.23432d23.chunk.js.LICENSE.txt",
     "static/media/amarokProject.49214b72.png": "/portfolio-2021/static/media/amarokProject.49214b72.png",
     "static/media/asteroidsProject.56b0baf3.png": "/portfolio-2021/static/media/asteroidsProject.56b0baf3.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.b566e35c.js",
     "static/js/2.23432d23.chunk.js",
-    "static/css/main.e8d6dc64.chunk.css",
-    "static/js/main.e4c1a847.chunk.js"
+    "static/css/main.49fb14bb.chunk.css",
+    "static/js/main.c69c908b.chunk.js"
   ]
 }

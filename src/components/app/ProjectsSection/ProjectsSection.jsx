@@ -8,7 +8,7 @@ import billingProject from "../../../img/billingProject.png";
 import portfolioProject from "../../../img/oldPortfolio.png";
 import tweenmaxProject from "../../../img/tweenmaxProject.png";
 import mockupProject from "../../../img/mocupsProject.png";
-import todoProject from "../../../img/todoProject.png";
+import discordProject from "../../../img/discordProject.png";
 import memoProject from "../../../img/memoProject.png";
 import hangingProject from "../../../img/hangingProject.png";
 
@@ -80,12 +80,12 @@ const ProjectsSection = ({projectRef}) => {
                   codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/gwent-memory"}
               />
               <Project
-                  image={todoProject}
-                  name="Todo app"
-                  description="Todo description"
-                  stack="Javascript"
-                  siteLink={"https://marcinparda.github.io/to-do-list/"}
-                  codeLink={"https://github.com/MarcinParda/to-do-list"}
+                  image={discordProject}
+                  name="Discord tailwind"
+                  description="Discord description"
+                  stack="Tailwind/Firebase"
+                  siteLink={"https://discord-tailwind-19e4e.web.app/"}
+                  codeLink={"https://github.com/MarcinParda/tailwind-dashboard"}
               />
               <Project
                   image={mockupProject}

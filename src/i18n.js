@@ -29,7 +29,7 @@ i18n
                     "Tweenmax description": "Website created using the tweenmax library, presenting the album Wilczy humor",
                     "Old portfolio description": "My portfolio from 2020",
                     "Memo gwent description": "A memory game inspired by the card game Gwent",
-                    "Todo description": "Must-have for every portfolio",
+                    "Discord description": "Discord inspired dashboard made with Tailwind CSS. Deployed with firebase",
                     "Mockups description": "Mockups that I created for a project on a university subject"
                 },
             },
@@ -68,7 +68,7 @@ i18n
                     "Memo gwent game": "Gra memory",
                     "Memo gwent description": "Gra memory inspirowana grą karcianą Gwint",
                     "Todo app": "Aplikacja todo",
-                    "Todo description": "Must-have każdego portfolio",
+                    "Discord description": "Dashboard inspirowany aplikacją Discord stworzony przy użyciu Tailwind CSS. Zdeployowany za pomocą firebase",
                     "Project mockups": "Mockupy do projektu",
                     "Mockups description": "Mockupy, które tworzyłem do projektu na przedmiocie uczelnianym",
                     "My CV": "Moje CV",

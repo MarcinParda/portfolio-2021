@@ -2,6 +2,7 @@ $yellow: #fef236;
 $blue: #02527b;
 $white: #fff;
 $black: #000;
+$gray: #666;
 
 $phone-horizontal: 640px;
 $tablet: 1024px;
@@ -302,6 +303,22 @@ h5 {
     &:hover {
       background-color: $blue;
       color: $white;
+    }
+  }
+  &__radio {
+    color: $gray;
+    border-color: $gray;
+    &:hover {
+      color: $blue;
+      border-color: $blue;
+    }
+    &--selected {
+      background-color: $blue;
+      border-color: $blue;
+      color: $white;
+      &:hover {
+        color: $white;
+      }
     }
   }
   &:hover{

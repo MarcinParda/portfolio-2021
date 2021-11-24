@@ -12,7 +12,12 @@ const Project = ({image, name, description, stack, siteLink, codeLink}) => {
             <div className="project-info project__div">
                 <div className="project-info__text text-center">
                     <h2>{t(name)}</h2>
-                    <h5 className="project-info__stack">{stack}</h5>
+                    <h5 className="project-info__stack">{stack.map((technology, index) => {
+                        if (index === 0) {
+                            return technology;
+                        }
+                        return `/${technology}`
+                    })}</h5>
                     <h4 className="mt-2">{t(description)}.</h4>
                 </div>
                 <div className={`project-info__buttons ${codeLink ? "" : "project-info__buttons--only-page"}`}>

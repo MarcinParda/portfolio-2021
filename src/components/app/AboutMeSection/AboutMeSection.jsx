@@ -63,14 +63,14 @@ const AboutMeSection = () => {
             <article>
                 <div><h3 className="text-center text-white text-normal mt-5">{t("Technologies I enjoy to use")}:</h3></div>
                 <div className="technologies">
-                    <Technology years={2.5} description={"Description"} technologyName={"React"} technologyImg={reactStack} />
-                    <Technology years={2} description={"Description"} technologyName={"Typescript"} technologyImg={typescriptStack} />
-                    <Technology years={4.5} description={"Description"} technologyName={"Javascript"} technologyImg={javascriptStack} />
-                    <Technology years={3.5} description={"Description"} technologyName={"Sass"} technologyImg={sassStack} />
-                    <Technology years={5.5} description={"Description"} technologyName={"CSS"} technologyImg={cssStack} />
-                    <Technology years={5.5} description={"Description"} technologyName={"HTML"} technologyImg={htmlStack} />
-                    <Technology years={4.5} description={"Description"} technologyName={"Git"} technologyImg={gitStack} />
-                    <Technology years={1.5} description={"Description"} technologyName={"Figma"} technologyImg={figmaStack} />
+                    <Technology years={2.5} technologyName={"React"} technologyImg={reactStack} />
+                    <Technology years={2} technologyName={"Typescript"} technologyImg={typescriptStack} />
+                    <Technology years={4.5} technologyName={"Javascript"} technologyImg={javascriptStack} />
+                    <Technology years={3.5} technologyName={"Sass"} technologyImg={sassStack} />
+                    <Technology years={5.5} technologyName={"CSS"} technologyImg={cssStack} />
+                    <Technology years={5.5} technologyName={"HTML"} technologyImg={htmlStack} />
+                    <Technology years={4.5} technologyName={"Git"} technologyImg={gitStack} />
+                    <Technology years={1.5} technologyName={"Figma"} technologyImg={figmaStack} />
                 </div>
 
             </article>

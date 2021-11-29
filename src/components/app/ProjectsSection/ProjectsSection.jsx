@@ -13,6 +13,8 @@ import memoProject from "../../../img/memoProject.png";
 import hangingProject from "../../../img/hangingProject.png";
 import linkedinProject from "../../../img/linkedinProject.png";
 import browserProject from "../../../img/browserProject.png";
+import chatProject from "../../../img/chatProject.png";
+import figmaProject from "../../../img/figmaProject.png";
 
 const allProjects = [
     <Project
@@ -21,7 +23,7 @@ const allProjects = [
         key="LinkedIn Clone"
         description="LinkedIn Clone description"
         stack={["React", "Redux", "Firebase", "Styled Components", "RWD"]}
-        tags={["Favorites", "React", "Redux", "Firebase", "Styled Components", "RWD"]}
+        tags={["Favorites", "React", "Redux", "Firebase", "RWD"]}
         siteLink={"https://linkedin-clone-aca77.web.app/"}
         codeLink={"https://github.com/MarcinParda/linkedin-clone"}
     />,
@@ -34,6 +36,16 @@ const allProjects = [
         tags={["Favorites", "React", "Tailwind"]}
         siteLink={"https://gobrowser.netlify.app/search"}
         codeLink={"https://github.com/MarcinParda/google-clone-app"}
+    />,
+    <Project
+        image={chatProject}
+        name="Firebase superchat"
+        key="Firebase superchat"
+        description="Firebase superchat description"
+        stack={["React", "Firebase"]}
+        tags={["Favorites", "React", "Firebase"]}
+        siteLink={"https://superchat-cc2d4.web.app/"}
+        codeLink={"https://github.com/MarcinParda/firebase-superchat"}
     />,
     <Project
         image={billingProject}
@@ -51,7 +63,7 @@ const allProjects = [
         key="Amarok page"
         description="Amarok description"
         stack={["Sass","jQuery","RWD"]}
-        tags={["Favorites","RWD"]}
+        tags={["RWD"]}
         siteLink={"https://marcinparda.github.io/AmarokPage/"}
         codeLink={"https://github.com/MarcinParda/AmarokPage"}
     />,
@@ -101,7 +113,7 @@ const allProjects = [
         key="Discord tailwind"
         description="Discord description"
         stack={["Tailwind","Firebase"]}
-        tags={["Favorites", "Tailwind"]}
+        tags={["Tailwind"]}
         siteLink={"https://discord-tailwind-19e4e.web.app/"}
         codeLink={"https://github.com/MarcinParda/tailwind-dashboard"}
     />,
@@ -111,7 +123,7 @@ const allProjects = [
         key="Tweenmax page"
         description="Tweenmax description"
         stack={["Tweenmax","CSS"]}
-        tags={["Favorites", "Tweenmax"]}
+        tags={["Tweenmax"]}
         siteLink={"https://marcinparda.github.io/Frontend-Projects/JS/projects/photo-album-landing-page/index.html"}
         codeLink={"https://github.com/MarcinParda/Frontend-Projects/tree/master/JS/projects/photo-album-landing-page"}
     />,
@@ -122,6 +134,15 @@ const allProjects = [
         description="Mockups description"
         stack={["Miro"]}
         tags={["Favorites", "Mockups"]}
+        siteLink={"https://miro.com/app/board/o9J_kuO7wMY=/?moveToWidget=3074457347509396995&cot=5"}
+    />,
+    <Project
+        image={figmaProject}
+        name="Figma mockups"
+        key="Figma mockups"
+        description="Figma mockups description"
+        stack={["Figma"]}
+        tags={["Mockups"]}
         siteLink={"https://miro.com/app/board/o9J_kuO7wMY=/?moveToWidget=3074457347509396995&cot=5"}
     />
 ];

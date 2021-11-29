@@ -11,8 +11,30 @@ import mockupProject from "../../../img/mocupsProject.png";
 import discordProject from "../../../img/discordProject.png";
 import memoProject from "../../../img/memoProject.png";
 import hangingProject from "../../../img/hangingProject.png";
+import linkedinProject from "../../../img/linkedinProject.png";
+import browserProject from "../../../img/browserProject.png";
 
 const allProjects = [
+    <Project
+        image={linkedinProject}
+        name="LinkedIn Clone"
+        key="LinkedIn Clone"
+        description="LinkedIn Clone description"
+        stack={["React", "Redux", "Firebase", "Styled Components", "RWD"]}
+        tags={["Favorites", "React", "Redux", "Firebase", "Styled Components", "RWD"]}
+        siteLink={"https://linkedin-clone-aca77.web.app/"}
+        codeLink={"https://github.com/MarcinParda/linkedin-clone"}
+    />,
+    <Project
+        image={browserProject}
+        name="Go browser"
+        key="Go browser"
+        description="Go browser description"
+        stack={["React","Tailwind", "Netlify"]}
+        tags={["Favorites", "React", "Tailwind"]}
+        siteLink={"https://gobrowser.netlify.app/search"}
+        codeLink={"https://github.com/MarcinParda/google-clone-app"}
+    />,
     <Project
         image={billingProject}
         name="Billing app"

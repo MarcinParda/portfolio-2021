@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-2021/static/css/main.37c20922.chunk.css",
-    "main.js": "/portfolio-2021/static/js/main.6e818c9b.chunk.js",
-    "main.js.map": "/portfolio-2021/static/js/main.6e818c9b.chunk.js.map",
+    "main.js": "/portfolio-2021/static/js/main.7e4e3523.chunk.js",
+    "main.js.map": "/portfolio-2021/static/js/main.7e4e3523.chunk.js.map",
     "runtime-main.js": "/portfolio-2021/static/js/runtime-main.de9a56e9.js",
     "runtime-main.js.map": "/portfolio-2021/static/js/runtime-main.de9a56e9.js.map",
     "static/js/2.af58f7d2.chunk.js": "/portfolio-2021/static/js/2.af58f7d2.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/amarokProject.49214b72.png": "/portfolio-2021/static/media/amarokProject.49214b72.png",
     "static/media/asteroidsProject.56b0baf3.png": "/portfolio-2021/static/media/asteroidsProject.56b0baf3.png",
     "static/media/billingProject.d877bcec.png": "/portfolio-2021/static/media/billingProject.d877bcec.png",
+    "static/media/blogProject.00b239be.png": "/portfolio-2021/static/media/blogProject.00b239be.png",
     "static/media/browserProject.4c17519a.png": "/portfolio-2021/static/media/browserProject.4c17519a.png",
     "static/media/chatProject.fb9eea87.png": "/portfolio-2021/static/media/chatProject.fb9eea87.png",
     "static/media/cssStack.ebafa3dd.png": "/portfolio-2021/static/media/cssStack.ebafa3dd.png",
@@ -42,6 +43,6 @@
     "static/js/runtime-main.de9a56e9.js",
     "static/js/2.af58f7d2.chunk.js",
     "static/css/main.37c20922.chunk.css",
-    "static/js/main.6e818c9b.chunk.js"
+    "static/js/main.7e4e3523.chunk.js"
   ]
 }

@@ -33,7 +33,8 @@ i18n
                     "Old portfolio description": "My portfolio from 2020",
                     "Memo gwent description": "A memory game inspired by the card game Gwent",
                     "Discord description": "Discord inspired dashboard made with Tailwind CSS. Deployed with firebase",
-                    "Mockups description": "Mockups that I created for a project on a university subject"
+                    "Mockups description": "Mockups that I created for a project on a university subject",
+                    "Blog description": "Blog created using GraphCMS and Next.js. New content is added to it from time to time"
                 },
             },
             pl: {
@@ -77,6 +78,7 @@ i18n
                     "Discord description": "Dashboard inspirowany aplikacją Discord stworzony przy użyciu Tailwind CSS. Zdeployowany za pomocą firebase",
                     "Project mockups": "Mockupy do projektu",
                     "Mockups description": "Mockupy, które tworzyłem do projektu na przedmiocie uczelnianym",
+                    "Blog description": "Blog stworzony przy użyciu GraphCMS i Next.js. Od czasu do czasu pojawiają się na nim nowe materiały",
                     "My CV": "Moje CV",
                     "Number": "Numer"
                 },

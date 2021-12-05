@@ -15,6 +15,7 @@ import linkedinProject from "../../../img/linkedinProject.png";
 import browserProject from "../../../img/browserProject.png";
 import chatProject from "../../../img/chatProject.png";
 import figmaProject from "../../../img/figmaProject.png";
+import blogProject from "../../../img/blogProject.png";
 
 const allProjects = [
     <Project
@@ -26,6 +27,16 @@ const allProjects = [
         tags={["Favorites", "React", "Redux", "Firebase", "RWD"]}
         siteLink={"https://linkedin-clone-aca77.web.app/"}
         codeLink={"https://github.com/MarcinParda/linkedin-clone"}
+    />,
+    <Project
+      image={blogProject}
+      name="My blog"
+      key="My blog"
+      description="Blog description"
+      stack={["Next.js","GraphQL","Tailwind"]}
+      tags={["Favorites","Next.js", "Tailwind"]}
+      siteLink={"https://graphcms-blog-mvze9i85s-marcinparda.vercel.app/"}
+      codeLink={"https://github.com/MarcinParda/graphcms_blog"}
     />,
     <Project
         image={browserProject}
@@ -53,7 +64,7 @@ const allProjects = [
         key="Billing app"
         description="Billing description"
         stack={["React","Bootstrap","Redux"]}
-        tags={["Favorites", "React"]}
+        tags={["React"]}
         siteLink={"https://floating-atoll-06778.herokuapp.com/"}
         codeLink={"https://github.com/Billeniarsi/rejestracja-czasu-pracy"}
     />,

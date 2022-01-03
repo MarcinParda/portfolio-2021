@@ -24,13 +24,17 @@ i18n
                     "My projects": "My projects",
                     "Amarok description": "Home page for game Amarok: Blood of the north",
                     "Billing description": "Working time recording application. Data for logging on the repository (view code)",
+                    "LinkedIn Clone description": "A clone of the linedIn website, with the functionality of creating an account and sending posts",
+                    "Go browser description": "Browser based on Google Search API. Has a light & dark mode. Deployed on Netlify",
+                    "Firebase superchat description": "Superchat with the functionality of creating account via google and posting messages",
                     "Asteroid description": "A copy of the game Asteroid from 1979",
                     "Hangman game description": "Hangman game with 10 different passwords to guess pre-loaded",
                     "Tweenmax description": "Website created using the tweenmax library, presenting the album Wilczy humor",
                     "Old portfolio description": "My portfolio from 2020",
                     "Memo gwent description": "A memory game inspired by the card game Gwent",
                     "Discord description": "Discord inspired dashboard made with Tailwind CSS. Deployed with firebase",
-                    "Mockups description": "Mockups that I created for a project on a university subject"
+                    "Mockups description": "Mockups that I created for a project on a university subject",
+                    "Blog description": "Blog created using GraphCMS and Next.js. New content is added to it from time to time"
                 },
             },
             pl: {
@@ -57,6 +61,9 @@ i18n
                     "View code": "Kod",
                     "Billing app": "Rejestracja czasu pracy",
                     "Billing description": "Aplikacja rejestrująca czas pracy. Dane do logowania na repozutorium (kod)",
+                    "LinkedIn Clone description": "Klon strony linedIn, z funkcjonalnością założenia konta i wysyłania postów",
+                    "Go browser description": "Przeglądarka treści zbudowana przy pomocy Google Search API. Posiada tryb nocny. Postawiona na Netlify",
+                    "Firebase superchat description": "Superchat z funkcjonalnością tworzenia konta przez google oraz wysyłania wiadomości",
                     "Asteroid game": "Gra Asteroid",
                     "Asteroid description": "Kopia gry Asteroid z 1979",
                     "Hangman game": "Gra wisielec",
@@ -71,6 +78,7 @@ i18n
                     "Discord description": "Dashboard inspirowany aplikacją Discord stworzony przy użyciu Tailwind CSS. Zdeployowany za pomocą firebase",
                     "Project mockups": "Mockupy do projektu",
                     "Mockups description": "Mockupy, które tworzyłem do projektu na przedmiocie uczelnianym",
+                    "Blog description": "Blog stworzony przy użyciu GraphCMS i Next.js. Od czasu do czasu pojawiają się na nim nowe materiały",
                     "My CV": "Moje CV",
                     "Number": "Numer"
                 },

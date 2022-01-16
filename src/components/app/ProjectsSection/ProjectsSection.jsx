@@ -30,8 +30,8 @@ const allProjects = [
     />,
     <Project
       image={blogProject}
-      name="My blog"
-      key="My blog"
+      name="Blog"
+      key="Blog"
       description="Blog description"
       stack={["Next.js","GraphQL","Tailwind"]}
       tags={["Favorites","Next.js", "Tailwind"]}
@@ -154,7 +154,7 @@ const allProjects = [
         description="Figma mockups description"
         stack={["Figma"]}
         tags={["Mockups"]}
-        siteLink={"https://miro.com/app/board/o9J_kuO7wMY=/?moveToWidget=3074457347509396995&cot=5"}
+        siteLink={"https://www.figma.com/proto/ANBaTXEEzvD93ozjmKnw9k/Website-mockup?node-id=1%3A2&starting-point-node-id=1%3A2"}
     />
 ];
 

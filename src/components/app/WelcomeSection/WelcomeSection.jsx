@@ -18,7 +18,7 @@ const WelcomeSection = () => {
                 <img className="img__face" alt="my face :D" src={face} />
             </div>
             <article className="text-center">
-                <h1 className="mt-2">Junior React Developer</h1>
+                <h1 className="mt-2">React Developer</h1>
                 <div className="mt-2">{t("I program")}.</div>
                 <div className="mt-1 text-bold">{t("And this is my portfolio")}.</div>
                 <div className="mt-3 flex row-flex center-flex">

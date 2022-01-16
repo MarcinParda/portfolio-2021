@@ -3,13 +3,13 @@ import { useTranslation } from "react-i18next";
 import Technology from "./Technology/Technology";
 import i18n from "i18next";
 
-import htmlStack from "../../../img/htmlStack.png";
+import nextStack from "../../../img/nextStack.png";
 import reactStack from "../../../img/reactStack.png";
+import angularStack from "../../../img/angularStack.png";
 import typescriptStack from "../../../img/typescriptStack.png";
 import javascriptStack from "../../../img/javascriptStack.png";
 import gitStack from "../../../img/gitStack.png";
-import sassStack from "../../../img/sassStack.png";
-import cssStack from "../../../img/cssStack.png";
+import tailwindStack from "../../../img/tailwindStack.png";
 import figmaStack from "../../../img/figmaStack.png";
 
 const AboutMeSection = () => {
@@ -64,11 +64,11 @@ const AboutMeSection = () => {
                 <div><h3 className="text-center text-white text-normal mt-5">{t("Technologies I enjoy to use")}:</h3></div>
                 <div className="technologies">
                     <Technology years={2.5} technologyName={"React"} technologyImg={reactStack} />
+                    <Technology years={1} technologyName={"Angular"} technologyImg={angularStack} />
+                  <Technology years={0.25} technologyName={"Next.js"} technologyImg={nextStack} />
                     <Technology years={2} technologyName={"Typescript"} technologyImg={typescriptStack} />
-                    <Technology years={4.5} technologyName={"Javascript"} technologyImg={javascriptStack} />
-                    <Technology years={3.5} technologyName={"Sass"} technologyImg={sassStack} />
-                    <Technology years={5.5} technologyName={"CSS"} technologyImg={cssStack} />
-                    <Technology years={5.5} technologyName={"HTML"} technologyImg={htmlStack} />
+                    <Technology years={4} technologyName={"Javascript"} technologyImg={javascriptStack} />
+                    <Technology years={0.5} technologyName={"Tailwind"} technologyImg={tailwindStack} />
                     <Technology years={4.5} technologyName={"Git"} technologyImg={gitStack} />
                     <Technology years={1.5} technologyName={"Figma"} technologyImg={figmaStack} />
                 </div>
